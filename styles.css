@@ -222,6 +222,7 @@ footer{
     .iphone{
         position: static;
         transform: rotate(0);
+        width: 90%;
     }
 
     #title{

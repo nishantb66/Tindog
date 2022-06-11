@@ -1,0 +1,231 @@
+body {
+    font-family: "Ubuntu";
+    font: bold;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1 {
+    color: white;
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 3.5rem;
+}
+
+.container-fluid {
+    padding: 2% 15% 7%;   /* 2% top, 15% left and right, 7% bottom */
+    /*top and right left padding*/
+}
+
+.design {
+    /* border-radius: 2rem; */
+    width: 100%;
+    height: 50px;
+    background-color: #ef7486;
+}
+
+.design {
+    position: sticky;
+    top: 0;
+}
+
+.btn {
+    margin-right: 25px;
+}
+.btn:hover{
+    color: rgb(139, 132, 132);
+}
+
+.iphone {
+    width: 65%;
+    transform: rotate(25deg);
+    position: absolute;        /* this is done to move the image at the back of the features section */
+    right: 30%;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-weight: lighter;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.navbar-brand {
+    /*The logo of the website*/
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#features {
+    padding: 7% 15%; /* 7 percent top and bottom , 15 percent left and right*/
+    background-color: #fff;
+    position: relative;    /* We are not setting the position to "absolute becoz absolute changes the flow of the html element sequence and by this out elements becoms messed up so we have setted it to the relative*/
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    /* for the text in the next section */
+    padding: 5%;
+}
+
+h3 {
+    font-weight: Bold;
+}
+
+p {
+    font-weight: bold;
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    /* padding: 0 0 1rem 0;  or */
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.dog-img {
+    width: 20%;
+
+}
+
+
+/* testiminial section */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    /*to change the color of the background*/
+    color: #fff;
+    /*to change the color of the font*/
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image1{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-image2 {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-image3 {
+    width: 15%;
+    border-radius: 60%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    /*to centralised the text or any images in the press section*/
+    padding-bottom: 3%;
+}
+
+.press-logo{   /*for the logos of the press section*/
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px; /* to and padding from the screen edge */
+    text-align: center;  
+}
+
+.pricing-coloum{
+    padding: 3% 2%; /* 3% from top and bottom and 2% from left and right */
+}
+
+h3{
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+}
+
+#cta{
+    text-align: center;
+    padding: 7% 15% 4%;
+    background-color: #ff4c68;
+}
+
+footer{
+    padding: 10%;
+    text-align: center;
+}
+
+.My-name{
+    color: #ff4c68;
+}
+.My-name:hover{
+    color: black;
+}
+
+
+.copyright-text{
+    padding: 3% 3% 2%;
+}
+
+.spanspace{
+    padding: 3%;
+}
+
+.twitter-img{
+    width:  3%;
+}
+
+.facebook-img{
+    width: 1.6%;
+}
+
+.insta-img{
+    width: 3%;
+}
+
+.mail-img{
+    width: 3%;
+}
+
+
+@media (max-width: 1029px){
+    .iphone{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
